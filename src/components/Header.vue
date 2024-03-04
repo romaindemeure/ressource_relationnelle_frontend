@@ -5,22 +5,21 @@
         <div class="topbar">
 
             <div class="logo">
-                <router-link to="/" class="logoLink">Ecole de Parapente du menez hom</router-link>
+                <router-link to="/" class="logoLink">Ressource Relationnelle</router-link>
             </div>
 
             <nav class="menu">
-                <router-link to="/stagesemaine" class="menuItem">Stage Semaine</router-link>
-                <router-link to="/" class="menuItem">Stage Week-end</router-link>
-                <router-link to="/" class="menuItem">Pente École</router-link>
-                <router-link to="/" class="menuItem menuButton">Réservation</router-link>
+                <router-link to="/stagesemaine" class="menuItem">Mes ressources</router-link>
+                <router-link to="/stageweekend" class="menuItem">Mes Favories</router-link>
+                <router-link to="/penteecole" class="menuItem menuButton">Compte</router-link>
             </nav>
 
         </div>
 
         <div class="baseline">
-            <div class="baselineWelcome">Bienvenue</div>
-            <strong class="baselineName">École de parapente</strong>
-            <div class="baselineSlogan">du menez hom</div>
+            <div class="baselineWelcome">Ressource Relationnelle</div>
+            <strong class="baselineName">Ressource Relationnelle</strong>
+            <div class="baselineSlogan">échanges et partages</div>
         </div>
 
     </header>
@@ -36,7 +35,7 @@
 .header {
     background: 
         linear-gradient(180deg, rgba(0, 0, 0, 0.9),rgba(54, 54, 54, 0.5) 60%, rgba(28, 28, 28, 0.4)),
-        url(../../public/img/background_header.jpg) center center / cover no-repeat;
+        url(../../public/img/happy.png) center center / cover no-repeat;
         color: #FFF;
 }
 
@@ -48,18 +47,20 @@
     height: 50px;
 }
 .topbar a:hover {
-    color: #C89446;
+    color: #04989e;
 }
 
 .header .topbar .logo {
     margin-bottom: 20px;
+    padding-top: 4px;
 }
+
 .menuItem {
     display: inline-block;
     padding: 0 15px;
 }
 .menu .menuButton {
-    border: solid 1px #C89446;
+    border: solid 1px #04989e;
     border-radius: 3px;
     padding: 5px 20px;
     transition-property: color, background-color;
@@ -67,7 +68,7 @@
 }
 .menu .menuButton:hover {
     color: #FFF;
-    background: #C89446;
+    background: #04989e;
 }
 .baseline {
     padding: 50px 0 70px 0;
@@ -76,8 +77,7 @@
 
 .baseline .baselineWelcome {
     font-size: 3.5rem;
-    font-family: serif;
-    color: #C89446;
+    color: #04989e;
     font-weight: 400;
     line-height: 1;
 }
@@ -98,7 +98,7 @@
     font-weight: 300;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 950px) {
     html {
         font-size: 16px;
     }
@@ -121,7 +121,7 @@
     }
 
     .baseline .baselineName {
-        font-size: 4.375rem;
+        font-size: 4rem;
         letter-spacing: 11px;
         line-height: 5.5rem;
         letter-spacing: 12px;
@@ -133,8 +133,8 @@
         letter-spacing: 4px;
     }
     .menu .menuButton {
-        border: solid 1px #C89446;
-        padding: 10px 40px;
+        border: solid 1px #04989e;
+        padding: 10px 20px;
         margin-left: 20px;
     }       
 }
