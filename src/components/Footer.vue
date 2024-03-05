@@ -52,7 +52,7 @@
     content: '';
     width: 24px;
     height: 2px;
-    background: #C89446;
+    background: #04989e;
     display: block;
     margin-bottom: 0.5rem;
 }
@@ -108,7 +108,7 @@
         content: '';
         width: 24px;
         height: 2px;
-        background: #C89446;
+        background: #04989e;
         display: block;
         margin-bottom: 0.5rem;
     }
